@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TesteTCC.HomePage"
+             Title="Página Inicial">
+    <Grid>
+        <!--Imagem de fundo -->
+        <Image Source="fundo_tcc.png"
+               Aspect="AspectFill"
+               Opacity="0.3"
+               ZIndex="0" />
+
+        <!-- Conteúdo da tela -->
+        <StackLayout Padding="280" ZIndex="1">
+            <ScrollView>
+                <VerticalStackLayout Padding="30" Spacing="25">
+
+                    <Label Text="Bem-vindo(a)!"
+                   FontSize="24"
+                   HorizontalOptions="Center" />
+
+                    <Button Text="Cadastro de Produtos"
+                    BackgroundColor="#2E3A59"
+                    TextColor="#FFFFFF"
+                    HeightRequest="60"
+                    Clicked="Button_Clicked" />
+
+                    <Button Text="Entrada de Produtos"
+                    BackgroundColor="#2E3A59"
+                    TextColor="#FFFFFF"
+                    HeightRequest="60"
+                    Clicked="Button_Clicked_1" />
+
+                    <Button Text="Saída de Produtos"
+                    BackgroundColor="#2E3A59"
+                    TextColor="#FFFFFF"
+                    HeightRequest="60"
+                    Clicked="Button_Clicked_2" />
+
+                    <Button Text="Relatório"
+                    BackgroundColor="#2E3A59"
+                    TextColor="#FFFFFF"
+                    HeightRequest="60"
+                    Clicked="Button_Clicked_3" />
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </StackLayout>
+    </Grid>
+</ContentPage>

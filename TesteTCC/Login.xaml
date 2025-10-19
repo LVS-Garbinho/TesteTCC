@@ -31,7 +31,9 @@
                     <Button
                         Text="Entrar" 
                         BackgroundColor="#2E3A59"
-                        TextColor="#FFFFFF"/>
+                        TextColor="#FFFFFF"
+                        Clicked="Button_Clicked"/>
+      
 
                 </VerticalStackLayout>
             </ScrollView>
