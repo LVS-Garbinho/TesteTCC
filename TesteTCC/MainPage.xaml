@@ -18,7 +18,11 @@
                     Spacing="25">
 
                     <Label
-                    Text="Coletix – Coletor de estoque mobile" />
+                    Text="Coletix – Coletor de estoque mobile" 
+                        FontFamily="OpenSansSemibold"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        TextColor="Black"/>
 
                     <Button
                     Text="LOGIN"

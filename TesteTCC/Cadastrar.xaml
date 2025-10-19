@@ -46,7 +46,8 @@
                         <Button
                             Text="Voltar" 
                             BackgroundColor="#2E3A59"
-                            TextColor="#FFFFFF"/>
+                            TextColor="#FFFFFF"
+                            Clicked="Button_Clicked"/>
                         <Button
                             Text="Criar" 
                             BackgroundColor="#2E3A59"
